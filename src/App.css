@@ -14,14 +14,14 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #ffffff;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .App-link {
@@ -35,4 +35,40 @@
   to {
     transform: rotate(360deg);
   }
+}
+.box{
+  margin-top: 100px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+.button{
+  color: black;
+  border: 2px solid #ffffff;
+  font-size: 20px;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  margin-bottom: 20px;
+  margin-right:5px ;
+
+}
+.button:hover{
+  background-color: #61dafb; 
+  color: white;
+}
+input{
+  color: black;
+  border: 2px solid #000000;
+  font-size: 20px;
+  padding: 10px 24px;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
 }
